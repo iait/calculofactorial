@@ -7,7 +7,7 @@ public class App {
 	public static void main(String[] args) {
 		System.out.println("Factorial");
 		
-		CalculoFactorial factorial = new CalculoFactorialImpl();
+		CalculoFactorial factorial = new CalculoFactorialAlt2Impl();
 		
 		Scanner s = new Scanner(System.in);
 		String sNum = s.nextLine();
